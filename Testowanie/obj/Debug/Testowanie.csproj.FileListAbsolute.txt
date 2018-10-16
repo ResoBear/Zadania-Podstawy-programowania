@@ -1,0 +1,7 @@
+D:\Programming\C#\Szkoła\Zad\WWSSE_PP_2018_5207\Testowanie\bin\Debug\Testowanie.exe.config
+D:\Programming\C#\Szkoła\Zad\WWSSE_PP_2018_5207\Testowanie\bin\Debug\Testowanie.exe
+D:\Programming\C#\Szkoła\Zad\WWSSE_PP_2018_5207\Testowanie\bin\Debug\Testowanie.pdb
+D:\Programming\C#\Szkoła\Zad\WWSSE_PP_2018_5207\Testowanie\obj\Debug\Testowanie.csproj.CoreCompileInputs.cache
+D:\Programming\C#\Szkoła\Zad\WWSSE_PP_2018_5207\Testowanie\obj\Debug\Testowanie.exe
+D:\Programming\C#\Szkoła\Zad\WWSSE_PP_2018_5207\Testowanie\obj\Debug\Testowanie.pdb
+D:\Programming\C#\Szkoła\Zad\WWSSE_PP_2018_5207\Testowanie\obj\Debug\Testowanie.csprojAssemblyReference.cache
