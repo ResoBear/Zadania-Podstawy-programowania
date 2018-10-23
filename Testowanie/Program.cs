@@ -7,24 +7,43 @@ using System.Threading.Tasks;
 namespace Testowanie
 {
 
-    namespace _01.Decimal_to_Binary
+    namespace zad7
     {
         class DecimalToBinary
         {
-            static void Main(string[] args)
+            static void Main()
             {
-                Console.Write("Decimal: ");
-                int decimalNumber = int.Parse(Console.ReadLine());
+                Console.WriteLine("Program przekonwertuje liczbę dodatnią całkowitą na postać szesnastkową.\n");
+                Console.WriteLine("Podaj liczbę");
+                long decNumber = long.Parse(Console.ReadLine());
 
-                int remainder;
-                string result = ("");
-                while (decimalNumber > 0)
+                
+                string hexNumber = "";
+                while (decNumber != 0)
                 {
-                    remainder = decimalNumber % 2;
-                    decimalNumber /= 2;
-                    result = remainder.ToString() + result;
+                    long remain = decNumber % 16;
+
+                    switch (remain)
+                    {
+                        case 10: hexNumber = "A" + hexNumber;
+                            break;
+                        case 11: hexNumber = "B" + hexNumber;
+                            break;
+                        case 12: hexNumber = "C" + hexNumber;
+                            break;
+                        case 13: hexNumber = "D" + hexNumber;
+                            break;
+                        case 14: hexNumber = "E" + hexNumber;
+                            break;
+                        case 15: hexNumber = "F" + hexNumber;
+                            break;
+                        default: hexNumber = remain + hexNumber;
+                            break;
+                    }
+                    decNumber /= 16;
                 }
-                Console.WriteLine("Binary:  {0}", result);
+
+                Console.WriteLine("Wynik = " + hexNumber);
             }
         }
     }
