@@ -12,7 +12,7 @@ namespace Zadanie7
         {
             //wprowadzenie danych
             Console.WriteLine("Program przekonwertuje liczbę dodatnią całkowitą na postać szesnastkową.\n");
-            Console.WriteLine("Podaj liczbę");
+            Console.WriteLine("Podaj liczbę: ");
             long decNumber = long.Parse(Console.ReadLine());
 
             string hexNumber = "";

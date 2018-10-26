@@ -30,7 +30,7 @@ namespace Zadanie3
              
             }
             
-            Console.WriteLine(i);
+            Console.WriteLine("Liczba {0} składa się z {1} cygr", a, i);
 
         }
     }
