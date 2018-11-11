@@ -1,0 +1,7 @@
+D:\Programming\C#\Szkoła\Zad\WWSSE_PP_2018_5207\Zadanie12\bin\Debug\Zadanie12.exe.config
+D:\Programming\C#\Szkoła\Zad\WWSSE_PP_2018_5207\Zadanie12\bin\Debug\Zadanie12.exe
+D:\Programming\C#\Szkoła\Zad\WWSSE_PP_2018_5207\Zadanie12\bin\Debug\Zadanie12.pdb
+D:\Programming\C#\Szkoła\Zad\WWSSE_PP_2018_5207\Zadanie12\obj\Debug\Zadanie12.csproj.CoreCompileInputs.cache
+D:\Programming\C#\Szkoła\Zad\WWSSE_PP_2018_5207\Zadanie12\obj\Debug\Zadanie12.exe
+D:\Programming\C#\Szkoła\Zad\WWSSE_PP_2018_5207\Zadanie12\obj\Debug\Zadanie12.pdb
+D:\Programming\C#\Szkoła\Zad\WWSSE_PP_2018_5207\Zadanie12\obj\Debug\Zadanie12.csprojAssemblyReference.cache

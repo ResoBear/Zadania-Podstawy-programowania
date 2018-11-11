@@ -16,7 +16,7 @@ namespace Zadanie7
             long decNumber = long.Parse(Console.ReadLine());
 
             string hexNumber = "";
-
+            
             //pętla
             while (decNumber != 0)
             {
