@@ -1,0 +1,7 @@
+D:\Programming\C#\Szkoła\Zad\WWSSE_PP_2018_5207\WWSSECount\bin\Debug\WWSSECount.exe.config
+D:\Programming\C#\Szkoła\Zad\WWSSE_PP_2018_5207\WWSSECount\bin\Debug\WWSSECount.exe
+D:\Programming\C#\Szkoła\Zad\WWSSE_PP_2018_5207\WWSSECount\bin\Debug\WWSSECount.pdb
+D:\Programming\C#\Szkoła\Zad\WWSSE_PP_2018_5207\WWSSECount\obj\Debug\WWSSECount.csprojAssemblyReference.cache
+D:\Programming\C#\Szkoła\Zad\WWSSE_PP_2018_5207\WWSSECount\obj\Debug\WWSSECount.csproj.CoreCompileInputs.cache
+D:\Programming\C#\Szkoła\Zad\WWSSE_PP_2018_5207\WWSSECount\obj\Debug\WWSSECount.exe
+D:\Programming\C#\Szkoła\Zad\WWSSE_PP_2018_5207\WWSSECount\obj\Debug\WWSSECount.pdb

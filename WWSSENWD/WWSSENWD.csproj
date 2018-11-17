@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DAEE1E4B-42B4-4F30-98C6-58ED1FD6141D}</ProjectGuid>
+    <ProjectGuid>{D4E5EFB3-BF88-4E36-83CA-BC516E8CFE0E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Zadanie101</RootNamespace>
-    <AssemblyName>Zadanie101</AssemblyName>
+    <RootNamespace>WWSSENWD</RootNamespace>
+    <AssemblyName>WWSSENWD</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
