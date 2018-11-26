@@ -1,0 +1,7 @@
+D:\Programming\C#\Szkoła\Testowaniezad\Testowaniezad\bin\Debug\Testowaniezad.exe.config
+D:\Programming\C#\Szkoła\Testowaniezad\Testowaniezad\bin\Debug\Testowaniezad.exe
+D:\Programming\C#\Szkoła\Testowaniezad\Testowaniezad\bin\Debug\Testowaniezad.pdb
+D:\Programming\C#\Szkoła\Testowaniezad\Testowaniezad\obj\Debug\Testowaniezad.csprojAssemblyReference.cache
+D:\Programming\C#\Szkoła\Testowaniezad\Testowaniezad\obj\Debug\Testowaniezad.csproj.CoreCompileInputs.cache
+D:\Programming\C#\Szkoła\Testowaniezad\Testowaniezad\obj\Debug\Testowaniezad.exe
+D:\Programming\C#\Szkoła\Testowaniezad\Testowaniezad\obj\Debug\Testowaniezad.pdb
