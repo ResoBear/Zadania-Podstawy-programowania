@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Testowaniezad
+namespace WWSSENWW
 {
     class Program
     {
@@ -18,23 +18,20 @@ namespace Testowaniezad
             int a = X(ZamaianaTablic(dane));
             int b = Y(ZamaianaTablic(dane));
 
-
             if (a > b)
             {
                 int pom = a;
                 a = b;
                 b = pom;
             }
-            Console.WriteLine(a);
-            Console.WriteLine(b);
 
             int wynNwd = Sprawdzenie(ZamaianaTablic(dane));
             int wynikNww = NWW(a, b, wynNwd);
-            Console.WriteLine("NWW jest równe {0}",wynikNww);
+            Console.WriteLine("NWW jest równe {0}", wynikNww);
 
         }
 
-       public static int[] ZamaianaTablic(string a)
+        public static int[] ZamaianaTablic(string a)
         {
             string[] tablicaString = a.Split(' ');
             int[] tablicaInt = Array.ConvertAll(tablicaString, int.Parse);
@@ -46,7 +43,7 @@ namespace Testowaniezad
         {
             int x = a[0];
             return x;
-       
+
         }
 
         static int Y(int[] a)
@@ -66,10 +63,10 @@ namespace Testowaniezad
             {
                 Console.WriteLine("Błąd.Musisz podać dwie wartości.");
             }
-            return wynik ;
+            return wynik;
         }
 
-       public static int NWD(int a, int b)
+        public static int NWD(int a, int b)
         {
             a = Math.Abs(a);
             b = Math.Abs(b);
@@ -86,13 +83,12 @@ namespace Testowaniezad
                 }
             }
             return a;
-           
+
         }
-        static int NWW(int x,int y, int z)
+        static int NWW(int x, int y, int z)
         {
             int wynikNWW = (x / z) * y;
             return wynikNWW;
-
         }
 
 

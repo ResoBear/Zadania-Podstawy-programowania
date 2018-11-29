@@ -10,21 +10,39 @@ namespace WWSSENWD
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Ilość przekazywanych argumentów w linii poleceń {0}", args.Length);
+            Console.WriteLine("Program obliczy największy wspólny dzielnik dwóch podanych przez Ciebie liczb całkowitych.");
+            Console.WriteLine("Dane wprowadzaj w jednej lini po spacji. Liczby całkowite.");
+            Console.WriteLine("Podaj 2 liczby:");
+            string dane = Console.ReadLine();
 
-            for (int k = 0; k < args.Length; k++)
-            {
-                Console.WriteLine("Argument [{0}] jest równy {1}", k, args[k]);
-            }
+            int wynik = Sprawdzenie(ZamaianaTablic(dane));
+            Console.WriteLine("NWD jest równe {0}", wynik);
 
-            int a = 345;
-            int b = 27;
-            int c = NWD(a, b);
-
-            Console.WriteLine("NWD dla {0} i {1} jest równe {2}", a, b, c);
         }
 
-        static int NWD(int a, int b)
+        static int[] ZamaianaTablic(string a)
+        {
+            string[] tablicaString = a.Split(' ');
+            int[] tablicaInt = Array.ConvertAll(tablicaString, int.Parse);
+            return tablicaInt;
+
+        }
+
+        static int Sprawdzenie(int[] a)
+        {
+            int wynik = 0;
+            if (a.Length == 2)
+            {
+                wynik = NWD(a[0], a[1]);
+            }
+            else
+            {
+                Console.WriteLine("Błąd.Musisz podać dwie wartości.");
+            }
+            return wynik;
+        }
+
+        public static int NWD(int a, int b)
         {
             a = Math.Abs(a);
             b = Math.Abs(b);
@@ -42,5 +60,7 @@ namespace WWSSENWD
             }
             return a;
         }
+
     }
 }
+
