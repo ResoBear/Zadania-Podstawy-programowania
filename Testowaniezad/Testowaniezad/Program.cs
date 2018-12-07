@@ -18,15 +18,12 @@ namespace Testowaniezad
             int a = X(ZamaianaTablic(dane));
             int b = Y(ZamaianaTablic(dane));
 
-
             if (a > b)
             {
                 int pom = a;
                 a = b;
                 b = pom;
             }
-            Console.WriteLine(a);
-            Console.WriteLine(b);
 
             int wynNwd = Sprawdzenie(ZamaianaTablic(dane));
             int wynikNww = NWW(a, b, wynNwd);
